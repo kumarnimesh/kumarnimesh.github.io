@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nimesh Kumar</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Nimesh Kumar</h1>
+            <h2>Software Engineer</h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
+                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
+                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="August 2021 – October 2021">
+                <h3>Carpl.ai</h3>
+                <h4>Machine Learning Intern</h4>
+                <li>Utilized python pydicom package to create a labelled dataset by converting 5000 Computed Tomography dicom files into generalised image format and implement deep learning based algorithm for detecting whether a person has a Tuberculosis or not with an Accuracy of 95% and AUC 89%. Additionally performed unit testing, helping organization to get a approximately 3TB of radiology data from one of reputed Tamil Nadu Hospital.</li>
+                <br>
+                <li>Utilized python to implement EAST (Efficient Accurate Scene Text Detector ) and reduced final model size from 385Mb to 16Mb using several model size reduction technique, converted the reduced keras model to tensorlow.js compatible model for detecting text in an image in the browser itself and avoid any kind of data leakage from the sever.</li>
+            </div>
+            <div data-date="Decemebr 2021 – Present">
+                <h3>Carpl.ai</h3>
+                <h4>Software Engineer</h4>
+                <p>
+                    <li>Utilized python fastapi library to implement scheduler based three APIs that comes under Middlelayer of carpl.ai workflow in python, Additionally performed unit testing of same.</li>
+                    <li>Utilized python pydicom package to create a labelled dataset by converting 3500 mammogram dicom files into generalised image format and implement deep learning based algorithm for classifying mammogram view position i.e. rcc, lcc, lmlo, rmlo with 98% accuracy and 95% AUC dismissing the chance of failing when view information is not present in dicom tags while predicting breast cancer. Additionally performed unit testing and build a scheduler based service using fastapi and MySQL.</li>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Indian Institute of Technology, Patna</h3>
+            <span class="education-date">August 2020 - Janurary 2022</span>
+            <h4>Doctor of Philosphy (Dropped Out)<br>Computer science and Engineering</h4>
+            <p>
+                <ul>
+                    <li>Academic Experience
+                      <ul>
+                        <li>Collaborated with instructor and 2 other TAs to lead recitations, grade coursework and answer 100+ students questions.</li>
+                      </ul>
+                    </li>
+                    <li>Projects
+                        <ul>
+                            <li>Hate Speech Detection And Normalization in India
+                                <ul>
+                                    <li>Proposed a model than is based on an encoder- decoder network combined with attention mechanism to normalise the hate tweets and preserve their context. Also a Bert- Capsule classifier is employed to classify hate based tweets. Our proposed model exceeds several classification and style transfer based baseline models with overall accuracy and BLEU score of 83.37% and 0.5417 respectively.</li>
+                                </ul>
+                            <li>Multimodal Hate Speech classification
+                                <ul>
+                                    <li>Prepared a codemix dataset by scrapping multimodal data from twitter, Instagram and reddit using some specific hate keywords for hate speech classification in memes and proposed model which outperformed several baseline models with accuracy and AUC of 78% and 83%.</li>
+                                </ul>
+                            <li>Web Application
+                                <ul>
+                                    <li>Utilized python based flask api with html, CSS and JavaScript to built a web application where the above mentioned models are integrated. The data is fetched on the basis of some criteria i.e. keyword, hashtag, userID from the front end and act as an input to our model which classify tweets or posts into hate and not hate. Then the effectiveness score is calculate using the factors like prediction made, No. of followers, No of following, New/Old user etc. And if the effectiveness score is greater than 0.70 then the account information is sent to the Law enforcement agency (LEA).</li>
+                                </ul>
+                        </ul>
+                  </ul>
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Jaypee Institute of Information Technology, Noida</h3>
+            <span class="education-date">July 2018 - June 2020</span>
+            <h4>Master of Technology<br>Computer science and Engineering</h4>
+            <p>
+                <ul>
+                    <li>Academic Experience
+                      <ul>
+                        <li>Collaborated with instructor and TAs to lead recitations, grade coursework and practical work and answers 50+ students questions.</li>
+                      </ul>
+                    </li>
+                    <li>Projects
+                        <ul>
+                            <li>Change Detection In Remote Sensing Images
+                                <ul>
+                                    <li>Utilized various segmentation techniques to detected the change in the remote sensing image of Padma River course and measure the change using by Structural similarity measure on every slices of the image .</li>
+                                </ul>
+                            <li>Autonomous Vehicle
+                                <ul>
+                                    <li>Virtually simulated a self driving car using Udacity's self driving car simulator using Nvidia's Convolutional network. Also, Performed the detection of lane using computer vision and traffic road symbols using neural networks.</li>
+                                </ul>
+                        </ul>
+                  </ul>
+            </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/xray.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Multiple Disease classification</h3>
+                        <p>
+                            Implemented a transfer learning model using DenseNet to detect Hernia, Infiltration, Mass, Nodule etc. from X-ray image after pre-processing and Handling the class imbalance.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/xray.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Covid-19 Prediction</h3>
+                        <p>
+                            Utilized keras deep learning library to built a classification model that exceeds several other classification model with overall accuracy of 96.73%. Also, Performed unit testing of the same.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <p>
+                <li style="font-size:40px";>Programming Languages
+                    <ul>
+                        <li style="font-size:20px";>Python</li>
+                        <li style="font-size:20px";>C</li>
+                        <li style="font-size:20px";>JavaScript(Intermediate)</li>
+                        <li style="font-size:20px";>HTML</li>
+                    </ul>
+            </p>
+            <p>
+                <li style="font-size:40px";>Machine Learning
+                    <ul>
+                        <li style="font-size:20px";>Tensorflow</li>
+                        <li style="font-size:20px";>Deep Learning</li>
+                        <li style="font-size:20px";>Computer Vision</li>
+                        <li style="font-size:20px";>Numpy</li>
+                        <li style="font-size:20px";>Pandas</li>
+                        <li style="font-size:20px";>Sciket-Learn</li>
+                        <li style="font-size:20px";>Keras</li>
+                        <li style="font-size:20px";>Pydicom</li>
+                        <li style="font-size:20px";>Pandas</li>
+                        <li style="font-size:20px";>BERT</li>
+                        <li style="font-size:20px";>Matplotlib</li>
+                        <li style="font-size:20px";>Seaborn</li>
+                    </ul>
+            </p>
+            <p>
+                <li style="font-size:40px";>Data Science
+                    <ul>
+                        <li style="font-size:20px";> Data Science Pipeline (Cleaning, Wrangling, Visualization, Modelling, Interpretation)</li>
+                        <li style="font-size:20px";>Time series.</li>
+                    </ul>
+            </p>
+            <p>
+                <li style="font-size:40px";>Database & Miscellaneous
+                    <ul>
+                        <li style="font-size:20px";>SQLite</li>
+                        <li style="font-size:20px";>MySQL</li>
+                        <li style="font-size:20px";>Sqlalchemy</li>
+                        <li style="font-size:20px";>Postgres</li>
+                        <li style="font-size:20px";>APIs</li>
+                        <li style="font-size:20px";>Git</li>
+                        <li style="font-size:20px";>Jira</li>
+                    </ul>
+            </p>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Publications</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/mujoco.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Effect of Hyper-Parameter Tuning on the Performance of Augmented Random Search</h3>
+                        <p>Abstract Goes Here</p>
+                        <a href="#">View Paper</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/river.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>River Course Change Detection using Remote Sensing Imaging</h3>
+                        <p>
+                            Abstract Goes Here
+                        </p>
+                        <a href="#">View Paper</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #publications -->
+
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Certification</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/deeplearning.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Deep Learning Specicalization</h3>
+                        <p>
+                            Build and train deep neural networks, identify key architecture parameters, implement vectorized neural networks and deep learning to applications.<br>
+                            Build a CNN and apply it to detection and recognition tasks, use neural style transfer to generate art, and apply algorithms to image and video data.<br>
+                            Train test sets, analyze variance for DL applications, use standard techniques and optimization algorithms, and build neural networks in TensorFlow.<br>
+                            Build and train RNNs, work with NLP and Word Embeddings, and use HuggingFace tokenizers and transformer models to perform NER and Question Answering.<br>
+                        </p>
+                        <a href="https://coursera.org/share/a60f04d51618f69440a265aa7346ba59">View Certificate</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/ai.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>AI for Medicine</h3>
+                        <p>
+                            Diagnose diseases from x-rays and 3D MRI brain images and  Estimated treatment effects on patients using data from randomized trials.<br>
+                            Predict patient survival rates more accurately using tree-based models.<br>
+                            Automate the task of labeling medical datasets using natural language processing.<br>
+                        </p>
+                        <a href="https://coursera.org/share/88ae8cb91a29e1b677bc9a635852b7bd">View Certificate</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #publications -->
+
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> Nimesh Kumar
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
